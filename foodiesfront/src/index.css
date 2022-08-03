@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.md');
+    width: theme('width.full');
+  }
+  /* ... */
+}
+
+body {
+  background-color: #000814;
+}
+
+.spinner{
+  width: 128px;
+  height: 128px;
+  border: 20px solid;
+  border-color: #ffffff transparent #929292 transparent;
+  border-radius: 50%;
+  animation: spin 1.2s linear infinite;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
