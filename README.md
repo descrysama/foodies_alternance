@@ -5,11 +5,7 @@ J'ai aussi fait un peu de back sous nodejs (express, mongo et orm mongoose)
 
 ## Petite parenthèse 🚩
 
-si vous n'arrivez pas a vous connecter c'est à cause de votre navigateur (Chrome a changé des choses sur la politique des cookies et on ne peut plus les set avec des origin 
-differentes pour l'instant j'arrive pas à le changer).
-
-
-https://foodies-front.herokuapp.com/
+https://mernstackfoodiesapp.herokuapp.com/
 
 
 ![image](https://user-images.githubusercontent.com/63260058/182735093-0bd24905-cebf-44d5-b8e7-00f122a52e9b.png)
